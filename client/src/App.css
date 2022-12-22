@@ -1,0 +1,652 @@
+/* Global defaults */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Fixed contact button */
+.contactLink {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 10;
+}
+
+.contactBtn {
+  background-color: rgb(77, 255, 0);
+  border: 2px solid black;
+  border-radius: 20px;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.contactBtn:hover {
+  background-color: rgb(16, 189, 0);
+}
+
+/* Navbar css */
+.navbar {
+  align-items: center;
+  background-image: radial-gradient(lightgreen, rgb(124, 218, 124), rgb(4, 156, 4));
+  border-bottom: 3px solid black;
+}
+
+.companyName {
+  color: darkgreen;
+  font-family: cursive;
+  padding: 10px;
+  text-align: center;
+  font-size: 55px;
+}
+
+.title {
+  align-items: center;
+}
+
+.logo {
+  border-radius: 50%;
+  position: absolute;
+  height: 115px;
+  width: 115px;
+  top: 13px;
+  left: 20px;
+}
+
+.navBtns {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.serviceNav {
+  align-items: flex-end;
+  display: flex;
+  gap: 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 15px;
+}
+
+.link {
+  color: rgb(216, 58, 0);
+  font-size: 23px;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: orange;
+}
+
+.contactLink {
+  text-decoration: none;
+}
+
+#dropdown {
+  display: none;
+}
+
+.serviceDropdown {
+  position: absolute;
+  padding-top: 5px;
+}
+
+.dropdownItem {
+  background-color: rgb(0, 211, 0);
+  font-size: 18px;
+  font-weight: 500;
+  list-style: none;
+  padding: 12px 15px;
+}
+
+.dropdownItem:hover {
+  background-color: rgb(36, 241, 36);
+}
+
+.navServLink {
+  /* color: rgb(0, 0, 163); */
+  color: black;
+  /* padding: 10px 15px; */
+  text-decoration: none;
+}
+
+/* Body */
+.bodyWrapper {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Banner Section */
+.bannerDiv {
+  color: burlywood;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 500px;
+  padding: 50px;
+  text-align: center;
+  
+}
+
+.bannerHeader {
+  color: orange;
+  font-size: 55px;
+  text-align: center;
+  padding: 50px 50px 30px 50px;
+}
+
+.bannerSubText {
+  font-size: 35px;
+  padding: 0px 150px 20px 150px;
+}
+
+.bannerDetails {
+  font-size: 35px;
+  font-weight: 500;
+  padding: 0px 150px 10px 150px;
+}
+
+.slogan {
+  color: orange;
+  font-size: 40px;
+  /* font-weight: 500; */
+  margin-top: 40px;
+}
+
+.forest {
+  height: 800px;
+  width: 100%;
+}
+
+/* Contact section */
+.contactDiv {
+  background-image: radial-gradient(rgb(172, 172, 172), rgb(134, 134, 134), rgb(56, 56, 56));
+  /* background-color: rgb(82, 82, 82); */
+  display: flex;
+  justify-content: center;
+  padding: 4% 10% 4% 10%;
+  /* margin: 0% 3%; */
+  margin-top: 30px;
+}
+
+.contactInfo {
+  color: gold;
+  font-size: 35px;
+  text-align: center;
+}
+
+.contactMsg {
+  color: gold;
+}
+
+/* About section */
+.aboutDiv {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 3% 30px 3%;
+}
+
+.about {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutTitle {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.aboutDetails {
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px 4% 4% 3%;
+}
+
+.aboutMsg {
+  font-size: 20px;
+}
+
+.aboutImg {
+  width: 350px;
+}
+
+/* Maintenance Section */
+.maintenanceDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 3% 20px 3%;
+}
+
+.maintenance {
+  display: flex;
+}
+
+.maintenanceDetails {
+  background-size: contain;
+  background-position: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3% 3% 3% 3%;
+}
+
+.maintenanceTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.maintenanceDesc {
+  color: white;
+  font-size: 20px;
+}
+
+.maintenanceList {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.maintenanceList li {
+  margin-bottom: 20px;
+}
+
+/* Before and After Section */
+.diffSep {
+  background-color: black;
+  padding: 1px;
+  margin-top: 10px;
+}
+
+.differenceDiv {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.differences {
+  margin: 0% 3%;
+}
+
+.differenceTitle {
+  /* background-image: radial-gradient(lightgreen, rgb(70,141,40)); */
+  /* background-image: radial-gradient(rgb(172, 172, 172), rgb(134, 134, 134), rgb(56, 56, 56)); */
+  /* color: gold; */
+  font-size: 45px;
+  /* margin: 20px 0px 40px 0px; */
+  padding: 30px;
+}
+
+.differenceSection {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.differenceType {
+  display: flex;
+}
+
+.differenceDetails {
+  background-size: contain;
+  background-position: center;
+  color: white;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+#trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
+  display: inherit;
+  height: 500px;
+  width: 40%;
+}
+
+#trimAfter, #pruneAfter, #removeAfter, #stumpAfter {
+  height: 500px;
+  width: 40%;
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+.servTitle {
+  color: White;
+  font-size: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.serviceDetails {
+  font-size: 20px;
+}
+
+.servicesLink {
+  color: orange;
+  font-size: 40px;
+}
+
+/* Contact Us Page */
+.contactWrapper {
+  padding-bottom: 50px;
+}
+
+.contactTitle {
+  font-size: 35px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.contactSubTitle {
+  font-size: 23px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.formLabel {
+  flex: 1;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.inputDiv {
+  flex: 2;
+  display: flex;
+  height: 110%;
+  flex-direction: column;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+}
+
+.formInput {
+  flex: 2;
+  font-size: 20px;
+  gap: 50px;
+  height: 100%;
+  padding: 5px 5px;
+}
+
+.selectInput {
+  flex: 2;
+  font-size: 20px;
+  gap: 20px;
+  height: 100%;
+  padding: 8px 0px;
+}
+
+.formTextarea {
+  flex: 2;
+  font-size: 20px;
+  padding: 5px 5px;
+  overflow: auto;
+}
+
+.submitDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.formSubmit {
+  background-color: blue;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 30px;
+}
+
+.formSubmit:hover {
+  background-color: rgb(0, 0, 163);
+  color: white;
+}
+
+.requestFormDiv {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 30px 0px;
+}
+
+.requestForm {
+  background-color: whitesmoke;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 20px;
+  width: 60%;
+}
+
+.formName {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.formInput {
+  display: flex;
+}
+
+/* Tree Trimming */
+.serviceTitle {
+  font-size: 40px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.serviceSection {
+  display: flex;
+  gap: 100px;
+  margin: 40px 150px;
+}
+
+.serviceLeft {
+  flex: 3;
+}
+
+.serviceRight {
+  flex: 1;
+}
+
+.serviceDesc {
+  font-size: 17px;
+  padding: 20px 0px 20px 0px;
+  line-height: 30px;
+}
+
+.serviceBlock {
+  margin-bottom: 30px;
+}
+
+.trimmingDiagram {
+  margin: 20px 0px;
+}
+
+.diagramTitle {
+  text-align: center;
+}
+
+.diagramCredit {
+  text-align: center;
+  font-style: italic;
+}
+
+.serviceImg {
+  display: flex;
+  justify-content: center;
+}
+
+.itemList {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+/* Tree Removal Page */
+.descList {
+  font-size: 16px;
+  margin-left: 30px;
+  line-height: 35px;
+}
+
+.descHeader {
+  font-size: 17px;
+  margin: 10px 0px;
+  line-height: 30px;
+}
+
+/* Crown Raising page */
+.crownRaisingImg {
+  width: 35%;
+  margin-bottom: 40px;
+}
+
+/* Crown Reduction page */
+.crownReductionImg {
+  margin: 30px 0px;
+}
+
+/* Cabling page */
+.cobraImg {
+  width: 80%;
+}
+
+/* Services Links */
+.serviceListTitle {
+  color: rgb(212, 138, 0);
+  /* color: orangered; */
+  margin-bottom: 15px;
+}
+
+.serviceLinks {
+  /* color: rgb(49, 35, 255); */
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.serviceList {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+/* Site Map Section */
+.mapWrapper {
+  background-color: rgb(43,43,43);
+  color: gainsboro;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.mapTitle {
+  color: lightgreen;
+  font-size: 43px;
+  text-align: center;
+}
+
+.mapHeader {
+  color: lightgreen;
+  margin-bottom: 15px;
+}
+
+.mapHr {
+  margin: 30px 0px;
+}
+
+.mapDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bbbImg {
+  height: 100px;
+  margin-top: 30px;
+}
+
+.emergencyService {
+  color: orange;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.yelpLogo {
+  cursor: pointer;
+  height: 75px;
+}
+
+.instaLogo {
+  cursor: pointer;
+  height: 75px;
+}
+
+.mapLink {
+  color: gainsboro;
+}
+
+.mapLink:hover {
+  color: yellow;
+}
+
+.siteLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.siteServLink {
+  color: gainsboro;
+}
+
+.siteServLink:hover {
+  color: yellow;
+}
+
+.logosDiv {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+.isaImgDiv {
+  flex: 1;
+}
+
+.isaImg {
+  border-radius: 5px;
+}
+
+.mapDetailDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 5;
+}
