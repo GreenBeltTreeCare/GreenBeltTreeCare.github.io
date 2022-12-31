@@ -318,6 +318,18 @@
   color: gold;
 }
 
+@media only screen and (max-width: 1024px) {
+  .contactInfo {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contactInfo {
+    font-size: 15px;
+  }
+}
+
 /* About section */
 .aboutDiv {
   align-items: center;
