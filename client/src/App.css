@@ -232,6 +232,7 @@
   background-repeat: no-repeat;
   justify-content: center;
   height: 500px;
+  width: 100%;
   padding: 50px;
   text-align: center;
   
@@ -255,9 +256,45 @@
   padding: 0px 150px 10px 150px;
 }
 
-.forest {
-  height: 800px;
-  width: 100%;
+@media only screen and (max-width: 1024px) {
+  .bannerDiv {
+    padding: 20px;
+    height: 400px;
+  }
+  
+  .bannerHeader {
+    font-size: 35px;
+  }
+
+  .bannerSubText {
+    font-size: 25px;
+  }
+
+  .bannerDetails {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bannerDiv {
+    padding: 10px;
+    height: 225px;
+  }
+
+  .bannerHeader {
+    font-size: 20px;
+    padding: 30px 30px 20px 30px;
+  }
+
+  .bannerSubText {
+    font-size: 15px;
+    padding: 0px 40px 20px 40px;
+  }
+
+  .bannerDetails {
+    font-size: 15px;
+    padding: 0px 40px 20px 40px;
+  }
 }
 
 /* Contact section */
