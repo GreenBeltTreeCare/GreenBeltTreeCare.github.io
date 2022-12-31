@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.165d2c9b.css",
-    "main.js": "/static/js/main.1f561615.js",
+    "main.css": "/static/css/main.869a5c01.css",
+    "main.js": "/static/js/main.2de599a3.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/forest.jpg": "/static/media/forest.e488df085a6d7d7aa97d.jpg",
     "static/media/tree_after.jpg": "/static/media/tree_after.4ca01171ed2a3b1eaee1.jpg",
@@ -19,12 +19,12 @@
     "static/media/yelp-logo.png": "/static/media/yelp-logo.e9f2163f9d8b2f701746.png",
     "static/media/crown_raising.jpg": "/static/media/crown_raising.c756b66acb1066517d10.jpg",
     "index.html": "/index.html",
-    "main.165d2c9b.css.map": "/static/css/main.165d2c9b.css.map",
-    "main.1f561615.js.map": "/static/js/main.1f561615.js.map",
+    "main.869a5c01.css.map": "/static/css/main.869a5c01.css.map",
+    "main.2de599a3.js.map": "/static/js/main.2de599a3.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.165d2c9b.css",
-    "static/js/main.1f561615.js"
+    "static/css/main.869a5c01.css",
+    "static/js/main.2de599a3.js"
   ]
 }
