@@ -21,7 +21,7 @@ const Navbar = () => {
     }
 
     const openServices = () => {
-        document.getElementById("dropdownMd").style.display = "flex";
+        document.getElementById("dropdownMd").style.display = "block";
     }
 
     const closeServices = () => {
@@ -61,8 +61,8 @@ const Navbar = () => {
                 <img src={menu_icon} alt="menu_icon" className="menuIcon"/>
                 <div id="menuItems">
                     <Link to="/" onClick={closeMenu} className="linkStyle"><h2 className="link">Home</h2></Link>
-                    <div onClick={openServices}>
-                        <div className="serviceNav">
+                    <div>
+                        <div onClick={openServices} className="serviceNav">
                             <h2 className="link">Services</h2>
                         </div>
                         <div id="dropdownMd">

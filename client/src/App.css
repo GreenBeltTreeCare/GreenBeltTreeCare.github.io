@@ -188,13 +188,15 @@
   }
 
   #dropdownMd {
-    background-color: rgb(236, 236, 236);
     display: none;
+  }
+
+  #dropdownMd {
+    background-color: rgb(236, 236, 236);
+    /* display: none; */
     position: absolute;
-    right: 0;
-    top: 0;
-    margin-right: 348px;
-    margin-top: 50px;
+    right: 348px;
+    top: 50px;
   }
 
   .dropdownItem {
@@ -626,6 +628,12 @@
 .serviceList {
   list-style: none;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1024px){
+  .serviceRight {
+    display: none;
+  }
 }
 
 /* Site Map Section */
