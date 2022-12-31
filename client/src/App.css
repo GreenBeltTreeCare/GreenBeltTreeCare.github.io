@@ -205,6 +205,26 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 40px;
+    padding: 5px;
+  }
+  
+  .companyName {
+    font-size: 18px;
+  }
+
+  .slogan {
+    font-size: 13px;
+  }
+
+  .menuIcon {
+    width: 40px;
+    padding: 5px;
+  }
+}
+
 /* Banner Section */
 .bannerDiv {
   color: burlywood;
