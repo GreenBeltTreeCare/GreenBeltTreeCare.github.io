@@ -102,7 +102,7 @@ const Contact = () => {
                     {/* Request Form */}
                     <form className="requestForm" ref={form} onSubmit={sendEmail}>
                         {/* Name input */}
-                        <div className="formInput">
+                        <div className="formInputDiv">
                             <label className="formLabel">Full Name:*</label>
                             <div className="inputDiv">
                                 <input className="formInput" type="text" name="full_name" onChange={(e) => setName(e.target.value)} value={name}/>
@@ -110,7 +110,7 @@ const Contact = () => {
                             </div>
                         </div>
                         {/* Phone Number input */}
-                        <div className="formInput">
+                        <div className="formInputDiv">
                             <label className="formLabel">Phone Number:*</label>
                             <div className="inputDiv">
                                 <input className="formInput" type="text" name="phone_number" onChange={(e) => setNumber(e.target.value)}  value={number}/>
@@ -118,7 +118,7 @@ const Contact = () => {
                             </div>
                         </div>
                         {/* Email input */}
-                        <div className="formInput">
+                        <div className="formInputDiv">
                             <label className="formLabel">Email:*</label>
                             <div className="inputDiv">
                                 <input className="formInput" type="email" name="email" onChange={(e) => setEmail(e.target.value)}  value={email}/>
@@ -126,18 +126,18 @@ const Contact = () => {
                             </div>
                         </div>
                         {/* Contact Method input */}
-                        <div className="formInput">
-                            <label className="formLabel">Contact Method:</label>
+                        <div className="formInputDiv">
+                            <label className="formLabel selectLabel">Contact Method:*</label>
                             <select className="selectInput" name="contact_method" onChange={(e) => setContactMethod(e.target.value)}  value={contactMethod}>
-                                <option value="Call">Call</option>
-                                <option value="Email">Email</option>
+                                <option className="selectInput" value="Call">Call</option>
+                                <option className="selectInput" value="Email">Email</option>
                             </select>
                         </div>
                         {/* Message input */}
-                        <div className="formInput">
+                        <div className="formInputDiv">
                             <label className="formLabel">Message:*</label>
                             <div className="inputDiv">
-                                <textarea className="formTextarea" name="message" rows="5" maxLength={1000} onChange={(e) => setMessage(e.target.value)}  value={message}></textarea>
+                                <textarea className="formTextArea" name="message" rows="5" maxLength={1000} onChange={(e) => setMessage(e.target.value)}  value={message}></textarea>
                                 {messageError ? <p className="error">Message is Required!</p> : ""}
                             </div>
                         </div>

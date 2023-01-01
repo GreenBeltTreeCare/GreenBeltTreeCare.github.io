@@ -150,6 +150,14 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .companyName {
+    font-size: 32px;
+  }
+
+  .slogan {
+    font-size: 22px;
+  }
+  
   .contactLink {
     display: none;
   }
@@ -625,7 +633,6 @@
 .formInput {
   flex: 2;
   font-size: 20px;
-  gap: 50px;
   height: 100%;
   padding: 5px 5px;
 }
@@ -633,12 +640,11 @@
 .selectInput {
   flex: 2;
   font-size: 20px;
-  gap: 20px;
   height: 100%;
   padding: 8px 0px;
 }
 
-.formTextarea {
+.formTextArea {
   flex: 2;
   font-size: 20px;
   padding: 5px 5px;
@@ -678,17 +684,68 @@
   flex-direction: column;
   gap: 20px;
   padding: 20px 20px;
-  width: 60%;
+  width: 70%;
 }
 
-.formName {
+.formInputDiv {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
 }
 
-.formInput {
-  display: flex;
+@media only screen and (max-width: 1020px) {
+  .contactTitle {
+    font-size: 30px;
+  }
+
+  .contactSubTitle {
+    font-size: 20px;
+  }
+
+  .requestForm {
+    width: 80%;
+  }
+
+  .formLabel {
+    font-size: 20px;
+  }
+
+  .formSubmit {
+    padding: 5px 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contactTitle {
+    font-size: 25px;
+  }
+
+  .contactSubTitle {
+    font-size: 15px;
+    margin: 10px 20px;
+  }
+
+  .requestForm {
+    width: 80%;
+    gap: 15px;
+  }
+
+  .formLabel {
+    font-size: 15px;
+    flex: 2;
+    margin-right: 5px;
+  }
+
+  .formInput, .selectInput, .formTextArea {
+    font-size: 13px;
+    flex: 1;
+  }
+
+  .selectInput {
+    flex: 2;
+  }
+
+  .formSubmit {
+    font-size: 15px;
+  }
 }
 
 /* Tree Trimming */
