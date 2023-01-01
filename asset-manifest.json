@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a4ac6ba.css",
-    "main.js": "/static/js/main.6fd2b7f3.js",
+    "main.css": "/static/css/main.e1725db5.css",
+    "main.js": "/static/js/main.03433c07.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/forest.jpg": "/static/media/forest.e488df085a6d7d7aa97d.jpg",
     "static/media/tree_after.jpg": "/static/media/tree_after.4ca01171ed2a3b1eaee1.jpg",
@@ -13,18 +13,17 @@
     "static/media/tree_trimming.jpg": "/static/media/tree_trimming.1e3ac433b437bb6f3e3d.jpg",
     "static/media/company_logo.png": "/static/media/company_logo.471000192218556d1808.png",
     "static/media/tree_trimming_diagram.jpg": "/static/media/tree_trimming_diagram.5d0f1fd9bb96b8504a09.jpg",
-    "static/media/BBB_Accredited.jpeg": "/static/media/BBB_Accredited.384bdf60ddd14a693ed9.jpeg",
     "static/media/isa_member.png": "/static/media/isa_member.637ebae9aa4728fbf0a8.png",
     "static/media/crown_reduction.jpg": "/static/media/crown_reduction.3e12dd911217e93cc54c.jpg",
     "static/media/yelp-logo.png": "/static/media/yelp-logo.e9f2163f9d8b2f701746.png",
     "static/media/crown_raising.jpg": "/static/media/crown_raising.c756b66acb1066517d10.jpg",
     "index.html": "/index.html",
-    "main.2a4ac6ba.css.map": "/static/css/main.2a4ac6ba.css.map",
-    "main.6fd2b7f3.js.map": "/static/js/main.6fd2b7f3.js.map",
+    "main.e1725db5.css.map": "/static/css/main.e1725db5.css.map",
+    "main.03433c07.js.map": "/static/js/main.03433c07.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a4ac6ba.css",
-    "static/js/main.6fd2b7f3.js"
+    "static/css/main.e1725db5.css",
+    "static/js/main.03433c07.js"
   ]
 }
