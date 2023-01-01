@@ -9,11 +9,11 @@ const Stump = () => {
             <Link to="/contact" className="contactLink"><h3 className="contactBtn">Contact Us</h3></Link>
 
             <div>
-                <h1 className="serviceTitle">Professional Stump Grinding Service</h1>
+                <h1 className="serviceTitle">Stump Grinding</h1>
 
                 <div className="serviceSection">
                     <div className="serviceLeft">
-                        <h2>Why should I consider stump grinding?</h2>
+                        <h2 className="serviceSubTitle">Why should I consider stump grinding?</h2>
                     </div>
                     <div className="serviceRight">
                         <Services />

@@ -11,20 +11,20 @@ const Trimming = () => {
             
             {/* Tree Trimming Service */}
             <div>
-                <h1 className="serviceTitle">Professional Tree Trimming Service</h1>
+                <h1 className="serviceTitle">Tree Trimming</h1>
                 <div className="serviceSection">
                     <div className="serviceLeft">
                         <div className="serviceBlock">
-                            <h2>Why is trimming trees important?</h2>
+                            <h2 className="serviceSubTitle">Why is trimming trees important?</h2>
                             <p className="serviceDesc">Proper tree maintenance is an important step for improving the health and aethetics of a tree. It is crucial to regularly have your trees trims to remove any damaged or dead branches that could pose a risk to nearby buildings, vehicles or pedestrians. A properly maintained tree can help prolong the life of the tree and help to manage future fruit or flower production. Improving the aethetics of the tree it can increase property value.</p>
                         </div>
                         <div className="serviceBlock">
-                            <h2>How to properly trim your trees?</h2>
+                            <h2 className="serviceSubTitle">How to properly trim your trees?</h2>
                             <p className="serviceDesc">There are many things we should look for when it comes to properly trimming a tree. Here is a list of everything that is involved in properly trimming a tree.</p>
                             <div className="trimmingDiagram">
                                 <h3 className="diagramTitle">Tree Trimming Diagram</h3>
                                 <div className="serviceImg">
-                                    <img src={tree_trimming_diagram} alt="trimming_diagram" />
+                                    <img src={tree_trimming_diagram} alt="trimming_diagram" className="trimmingDiagramImg"/>
                                 </div>
                                 <p className="diagramCredit">Illustration of Reasons to prune trees (red branches to be removed)</p>
                                 <p className="diagramCredit">Credit: Don Wittig, former UME Master Gardener</p>

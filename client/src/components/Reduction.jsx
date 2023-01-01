@@ -10,11 +10,11 @@ const Reduction = () => {
             <Link to="/contact" className="contactLink"><h3 className="contactBtn">Contact Us</h3></Link>
 
             <div>
-                <h1 className="serviceTitle">Professional Crown Reduction Service</h1>
+                <h1 className="serviceTitle">Crown Reduction</h1>
 
                 <div className="serviceSection">
                     <div className="serviceLeft">
-                        <h2>What is crown reduction?</h2>
+                        <h2 className="serviceSubTitle">What is crown reduction?</h2>
                         <p className="serviceDesc">Crown reduction is the removal of the upper or outer most part of the tree. This is usually done in order to create clearance for objects above the tree such as power lines. Crown reduction is done by removing the leader branches from each individual branch section.</p>
                         <div className="serviceImg">
                             <img src={crown_reduction} alt="crown_reduction" className="crownReductionImg"/>

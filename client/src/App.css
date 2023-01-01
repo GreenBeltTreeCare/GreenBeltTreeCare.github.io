@@ -851,9 +851,46 @@
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1024px){
-  .serviceRight {
-    display: none;
+@media only screen and (max-width: 1024px) {
+  .serviceSection {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 30px 50px 30px;
+  }
+
+  .serviceTitle {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .serviceSection {
+    margin: 10px 20px;
+    margin-bottom: 50px;
+  }
+
+  .serviceTitle {
+    font-size: 25px;
+  }
+
+  .trimmingDiagramImg {
+    width: 100%;
+  }
+
+  .diagramCredit {
+    font-size: 13px;
+  }
+
+  .serviceSubTitle {
+    font-size: 20px;
+  }
+
+  .itemList {
+    font-size: 20px;
+  }
+
+  .serviceLinks {
+    font-size: 18px;
   }
 }
 

@@ -9,10 +9,10 @@ const Removal = () => {
             <Link to="/contact" className="contactLink"><h3 className="contactBtn">Contact Us</h3></Link>
 
             <div>
-                <h1 className="serviceTitle">Professional Tree Removal Service</h1>
+                <h1 className="serviceTitle">Tree Removal</h1>
                 <div className="serviceSection">
                     <div className="serviceLeft">
-                        <h2>When should a tree be removed?</h2>
+                        <h2 className="serviceSubTitle">When should a tree be removed?</h2>
                         <p className="serviceDesc">Trees are great for the environment and have lots of benefits when they are healthy. We always try to save a tree whenever possible, however, there are certain situations when the best thing to do is to remove it. Before removing a tree, it is best to have it diagnoses by an arborist. Arborist are trained to identify symptoms that may not be obvious to the untrained eye. These are some of the signs you should look out for when deciding if it's time to remove a tree.</p>
                         
                         {/* List item 1 */}
