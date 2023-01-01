@@ -958,11 +958,11 @@
 
 @media only screen and (max-width: 600px) {
   .mapTitle {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .mapSubTitle {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .mapDiv {
@@ -971,12 +971,16 @@
 
   .mapLinks {
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     margin-bottom: 30px;
   }
 
   .mapHeader {
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 5px;
+  }
+
+  .mapLink, .siteServLink {
+    font-size: 18px;
   }
 }
