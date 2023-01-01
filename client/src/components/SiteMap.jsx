@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom';
 import yelp_logo from '../imgs/yelp-logo.png';
 import insta_logo from '../imgs/insta-logo.png';
 import isa_member from '../imgs/isa_member.png';
-import BBB_Accredited from '../imgs/BBB_Accredited.jpeg'
 
 const SiteMap = () => {
     return (
         <div className="mapWrapper">
             {/* Site Map Header */}
             <h1 className="mapTitle">Green Belt Tree Care LLC</h1>
-            <h2>Licenced, Bonded and Insured</h2>
+            <h2 className="mapSubTitle">Licenced, Bonded and Insured</h2>
             <hr className="mapHr"/>
 
             {/* Site Map Body */}
@@ -19,16 +18,11 @@ const SiteMap = () => {
                     <img src={isa_member} alt="isa_member" className="isaImg"/>
                 </div>
                 <div className="mapDetailDiv">
-                    <div className="mapDiv">
+                    <div className="mapDiv mapLinks">
                         <div>
                             <h3 className="mapHeader">Site Links</h3>
-                            <div>
+                            <div className="siteLinks">
                                 <Link to="/" className="mapLink">Home</Link>
-                            </div>
-                            {/* <div>
-                                <Link to="/services" className="mapLink">Services</Link>
-                            </div> */}
-                            <div>
                                 <Link to="contact" className="mapLink">Contact Us</Link>
                             </div>
                         </div>

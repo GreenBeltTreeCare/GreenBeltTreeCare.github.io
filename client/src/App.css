@@ -897,3 +897,28 @@
   justify-content: space-between;
   flex: 5;
 }
+
+@media only screen and (max-width: 600px) {
+  .mapTitle {
+    font-size: 30px;
+  }
+
+  .mapSubTitle {
+    font-size: 20px;
+  }
+
+  .mapDiv {
+    flex-direction: column-reverse;
+  }
+
+  .mapLinks {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .mapHeader {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+}
