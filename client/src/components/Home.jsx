@@ -91,7 +91,7 @@ const Home = () => {
                     <div className="differences">
                         <h1 className="differenceTitle">See the difference we can make</h1>
                         <div className="differenceSection">
-                            <div className="differenceType">
+                            <div className="differenceType left">
                                 <img src={tree_before} alt="image_not_available" id="trimBefore" className="fade"/>
                                 <img src={tree_after} alt="image_not_available" id="trimAfter" className="fade"/>
                                 <div style={{ backgroundImage: `url(${tree_background})`}} className="differenceDetails">
@@ -99,7 +99,7 @@ const Home = () => {
                                     <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
-                            <div className="differenceType">
+                            <div className="differenceType right">
                                 <div style={{ backgroundImage: `url(${tree_background})`}} className="differenceDetails">
                                     <h1 className="servTitle">Tree Pruning</h1>
                                     <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -107,7 +107,7 @@ const Home = () => {
                                 <img src={tree_before} alt="image_not_available" id="pruneBefore" className="fade"/>
                                 <img src={tree_after} alt="image_not_available" id="pruneAfter" className="fade"/>
                             </div>
-                            <div className="differenceType">
+                            <div className="differenceType left">
                                 <img src={tree_before} alt="image_not_available" id="removeBefore" className="fade"/>
                                 <img src={tree_after} alt="image_not_available" id="removeAfter" className="fade"/>
                                 <div style={{ backgroundImage: `url(${tree_background})`}} className="differenceDetails">
@@ -115,7 +115,7 @@ const Home = () => {
                                     <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
-                            <div className="differenceType">
+                            <div className="differenceType right">
                                 <div style={{ backgroundImage: `url(${tree_background})`}} className="differenceDetails">
                                     <h1 className="servTitle">Stump Grinding</h1>
                                     <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

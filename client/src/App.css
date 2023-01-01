@@ -232,7 +232,6 @@
   background-repeat: no-repeat;
   justify-content: center;
   height: 500px;
-  width: 100%;
   padding: 50px;
   text-align: center;
   
@@ -354,8 +353,9 @@
 }
 
 .aboutDetails {
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -370,6 +370,32 @@
   width: 350px;
 }
 
+@media only screen and (max-width: 600px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .aboutDetails {
+    gap: 10px;
+  }
+
+  .aboutTitle {
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+
+  .aboutMsg {
+    font-size: 15px;
+    padding: 10px 10px 30px 10px;
+  }
+
+  .aboutImg {
+    width: 100%;
+    height: 350px;
+  }
+}
+
 /* Maintenance Section */
 .maintenanceDiv {
   display: flex;
@@ -382,8 +408,9 @@
 }
 
 .maintenanceDetails {
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   color: white;
   flex-direction: column;
   justify-content: center;
@@ -409,6 +436,33 @@
 
 .maintenanceList li {
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .maintenance {
+    justify-content: center;
+  }
+
+  .maintenanceDetails {
+    padding: 20px;
+  }
+
+  .trimmingImg {
+    display: none;
+  }
+
+  .maintenanceTitle {
+    font-size: 20px;
+  }
+
+  .maintenanceDesc {
+    font-size: 15px;
+  }
+
+  .maintenanceList {
+    font-size: 15px;
+    margin-left: 10px;
+  }
 }
 
 /* Before and After Section */
@@ -447,8 +501,9 @@
 }
 
 .differenceDetails {
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   color: white;
   padding: 20px 40px;
   width: 100%;
@@ -490,6 +545,45 @@
 .servicesLink {
   color: orange;
   font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .differenceTitle {
+    font-size: 20px;
+  }
+
+  .right {
+    flex-direction: column;
+  }
+
+  .left {
+    flex-direction: column-reverse;
+  }
+
+  .differenceDetails {
+    padding: 30px 15px;
+    width: fit-content;
+  }
+
+  .servTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .serviceDetails {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  #trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
+    height: 350px;
+    width: 100%;
+  }
+
+  #trimAfter, #pruneAfter, #removeAfter, #stumpAfter {
+    height: 350px;
+    width: 100%;
+  }
 }
 
 /* Contact Us Page */
