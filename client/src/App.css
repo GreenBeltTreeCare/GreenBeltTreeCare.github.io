@@ -369,7 +369,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding: 20px 4% 4% 3%;
+  padding: 30px;
 }
 
 .aboutMsg {
@@ -378,6 +378,12 @@
 
 .aboutImg {
   width: 350px;
+}
+
+@media only screen and (max-width: 1020px) {
+  .aboutDetails {
+    gap: 10px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -425,7 +431,7 @@
   color: white;
   flex-direction: column;
   justify-content: center;
-  padding: 3% 3% 3% 3%;
+  padding: 30px;
 }
 
 .maintenanceTitle {
@@ -449,13 +455,19 @@
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 980px) {
+  .trimmingImg {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .maintenance {
     justify-content: center;
   }
 
   .maintenanceDetails {
-    padding: 20px;
+    padding: 30px;
   }
 
   .trimmingImg {
@@ -517,18 +529,18 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  padding: 30px 40px;
+  padding: 30px;
   width: 100%;
 }
 
 #trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
   display: inherit;
-  height: 400px;
+  height: 450px;
   width: 70%;
 }
 
 #trimAfter, #pruneAfter, #removeAfter, #stumpAfter {
-  height: 400px;
+  height: 450px;
   width: 70%;
   display: none;
 }
@@ -586,6 +598,7 @@
   .serviceDetails {
     font-size: 20px;
     margin-top: 10px;
+    padding: 0px 10px;
   }
 
   #trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
