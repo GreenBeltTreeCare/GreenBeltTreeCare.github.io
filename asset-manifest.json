@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b515175.css",
-    "main.js": "/static/js/main.cf2df477.js",
+    "main.css": "/static/css/main.18dd1550.css",
+    "main.js": "/static/js/main.ec35e1c5.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/forest.jpg": "/static/media/forest.e488df085a6d7d7aa97d.jpg",
-    "static/media/tree_after.jpg": "/static/media/tree_after.4ca01171ed2a3b1eaee1.jpg",
+    "static/media/stump_after.jpg": "/static/media/stump_after.a0da3fa708843d5b6003.jpg",
+    "static/media/stump_before.jpg": "/static/media/stump_before.9cf1481be91741de3c4c.jpg",
     "static/media/insta-logo.png": "/static/media/insta-logo.0b600938fdc173438e1d.png",
     "static/media/tree_background.png": "/static/media/tree_background.c4beb8d04e79fc624c04.png",
     "static/media/cobra_cable.jpg": "/static/media/cobra_cable.7c6f06be39e5f44c4a60.jpg",
-    "static/media/tree_before.jpg": "/static/media/tree_before.58e0cca1cc48fb392e3a.jpg",
+    "static/media/removal_after.jpg": "/static/media/removal_after.6996c858daffde506f44.jpg",
+    "static/media/trimming_after.jpg": "/static/media/trimming_after.af8b18b706ee7442ceec.jpg",
+    "static/media/removal_before.jpg": "/static/media/removal_before.30da68dedad4bbfa4bea.jpg",
+    "static/media/pruning_after.jpg": "/static/media/pruning_after.b7654c01dc09db3f5d03.jpg",
+    "static/media/pruning_before.jpg": "/static/media/pruning_before.2ceadd75ee874f20c027.jpg",
+    "static/media/trimming_before.jpg": "/static/media/trimming_before.443eef0689449df5df94.jpg",
     "static/media/wyatt.jpg": "/static/media/wyatt.7b8a78fdb93ed206f7b3.jpg",
     "static/media/tree_trimming.jpg": "/static/media/tree_trimming.1e3ac433b437bb6f3e3d.jpg",
     "static/media/company_logo.png": "/static/media/company_logo.471000192218556d1808.png",
@@ -18,12 +24,12 @@
     "static/media/yelp-logo.png": "/static/media/yelp-logo.e9f2163f9d8b2f701746.png",
     "static/media/crown_raising.jpg": "/static/media/crown_raising.c756b66acb1066517d10.jpg",
     "index.html": "/index.html",
-    "main.8b515175.css.map": "/static/css/main.8b515175.css.map",
-    "main.cf2df477.js.map": "/static/js/main.cf2df477.js.map",
+    "main.18dd1550.css.map": "/static/css/main.18dd1550.css.map",
+    "main.ec35e1c5.js.map": "/static/js/main.ec35e1c5.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b515175.css",
-    "static/js/main.cf2df477.js"
+    "static/css/main.18dd1550.css",
+    "static/js/main.ec35e1c5.js"
   ]
 }
