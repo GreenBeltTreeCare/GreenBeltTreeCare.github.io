@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.18dd1550.css",
-    "main.js": "/static/js/main.ec35e1c5.js",
+    "main.css": "/static/css/main.578c157e.css",
+    "main.js": "/static/js/main.efb57615.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/forest.jpg": "/static/media/forest.e488df085a6d7d7aa97d.jpg",
     "static/media/stump_after.jpg": "/static/media/stump_after.a0da3fa708843d5b6003.jpg",
@@ -24,12 +24,12 @@
     "static/media/yelp-logo.png": "/static/media/yelp-logo.e9f2163f9d8b2f701746.png",
     "static/media/crown_raising.jpg": "/static/media/crown_raising.c756b66acb1066517d10.jpg",
     "index.html": "/index.html",
-    "main.18dd1550.css.map": "/static/css/main.18dd1550.css.map",
-    "main.ec35e1c5.js.map": "/static/js/main.ec35e1c5.js.map",
+    "main.578c157e.css.map": "/static/css/main.578c157e.css.map",
+    "main.efb57615.js.map": "/static/js/main.efb57615.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18dd1550.css",
-    "static/js/main.ec35e1c5.js"
+    "static/css/main.578c157e.css",
+    "static/js/main.efb57615.js"
   ]
 }
