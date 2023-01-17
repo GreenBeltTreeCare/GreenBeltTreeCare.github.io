@@ -1,8 +1,14 @@
 import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import wyatt from '../imgs/wyatt.jpg';
-import tree_before from '../imgs/tree_before.jpg';
-import tree_after from '../imgs/tree_after.jpg';
+import trimming_before from '../imgs/trimming_before.jpg';
+import trimming_after from '../imgs/trimming_after.jpg';
+import pruning_before from '../imgs/pruning_before.jpg';
+import pruning_after from '../imgs/pruning_after.jpg';
+import removal_before from '../imgs/removal_before.jpg';
+import removal_after from '../imgs/removal_after.jpg';
+import stump_before from '../imgs/stump_before.jpg';
+import stump_after from '../imgs/stump_after.jpg';
 import forest from '../imgs/forest.jpg';
 import tree_trimming from '../imgs/tree_trimming.jpg';
 import tree_background from '../imgs/tree_background.png';
@@ -61,7 +67,7 @@ const Home = () => {
                     <div className="about">
                         <div style={{ backgroundImage: `url(${tree_background})`}} className="aboutDetails">
                             <h1 className="aboutTitle">About Us</h1>
-                            <p className="aboutMsg">Green Belt Tree Care is a Native American owned and operated tree care company based out of Auburn, WA. We are Licensed, Insured and Bonded. We are committed to providing top quality tree care services throughout western washington. We offer a range of services from tree trimming, tree removal, stump grinding and many more. We also offer 24 hour emergency services.</p>
+                            <p className="aboutMsg">Green Belt Tree Care is a Native American owned and operated tree care company based out of Auburn, WA. We are Licensed, Bonded and Insured. We are committed to providing top quality tree care services throughout western washington. We offer a range of services from tree trimming, tree removal, stump grinding and many more. We also offer 24 hour emergency services.</p>
                         </div>
                         <img src={wyatt} alt="image_not_found" className="aboutImg"/>
                     </div>
@@ -92,8 +98,8 @@ const Home = () => {
                         <h1 className="differenceTitle">See the difference we can make</h1>
                         <div className="differenceSection">
                             <div className="differenceType left">
-                                <img src={tree_before} alt="image_not_available" id="trimBefore" className="fade"/>
-                                <img src={tree_after} alt="image_not_available" id="trimAfter" className="fade"/>
+                                <img src={trimming_before} alt="image_not_available" id="trimBefore" className="fade"/>
+                                <img src={trimming_after} alt="image_not_available" id="trimAfter" className="fade"/>
                                 <div style={{ backgroundImage: `url(${tree_background})`}} className="differenceDetails">
                                     <h1 className="servTitle">Tree Trimming</h1>
                                     <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -101,15 +107,15 @@ const Home = () => {
                             </div>
                             <div className="differenceType right">
                                 <div style={{ backgroundImage: `url(${tree_background})`}} className="differenceDetails">
-                                    <h1 className="servTitle">Tree Pruning</h1>
+                                    <h1 className="servTitle">Ornamental Pruning</h1>
                                     <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
-                                <img src={tree_before} alt="image_not_available" id="pruneBefore" className="fade"/>
-                                <img src={tree_after} alt="image_not_available" id="pruneAfter" className="fade"/>
+                                <img src={pruning_before} alt="image_not_available" id="pruneBefore" className="fade"/>
+                                <img src={pruning_after} alt="image_not_available" id="pruneAfter" className="fade"/>
                             </div>
                             <div className="differenceType left">
-                                <img src={tree_before} alt="image_not_available" id="removeBefore" className="fade"/>
-                                <img src={tree_after} alt="image_not_available" id="removeAfter" className="fade"/>
+                                <img src={removal_before} alt="image_not_available" id="removeBefore" className="fade"/>
+                                <img src={removal_after} alt="image_not_available" id="removeAfter" className="fade"/>
                                 <div style={{ backgroundImage: `url(${tree_background})`}} className="differenceDetails">
                                     <h1 className="servTitle">Tree Removal</h1>
                                     <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -120,8 +126,8 @@ const Home = () => {
                                     <h1 className="servTitle">Stump Grinding</h1>
                                     <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
-                                <img src={tree_before} alt="image_not_available" id="stumpBefore" className="fade"/>
-                                <img src={tree_after} alt="image_not_available" id="stumpAfter" className="fade"/>
+                                <img src={stump_before} alt="image_not_available" id="stumpBefore" className="fade"/>
+                                <img src={stump_after} alt="image_not_available" id="stumpAfter" className="fade"/>
                             </div>
                             {/* <Link to="/services" className="servicesLink">Learn more about what services we provide</Link> */}
                         </div>

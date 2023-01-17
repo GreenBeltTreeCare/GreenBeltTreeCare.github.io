@@ -220,11 +220,11 @@
   }
   
   .companyName {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .slogan {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .menuIcon {
@@ -362,7 +362,8 @@
 }
 
 .aboutDetails {
-  background-size: cover;
+  background-color: rgb(70,141,40);
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
@@ -417,7 +418,8 @@
 }
 
 .maintenanceDetails {
-  background-size: cover;
+  background-color: rgb(70,141,40);
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
@@ -510,7 +512,8 @@
 }
 
 .differenceDetails {
-  background-size: cover;
+  background-color: rgb(70,141,40);
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
@@ -521,12 +524,12 @@
 #trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
   display: inherit;
   height: 500px;
-  width: 40%;
+  width: 60%;
 }
 
 #trimAfter, #pruneAfter, #removeAfter, #stumpAfter {
   height: 500px;
-  width: 40%;
+  width: 60%;
   display: none;
 }
 
