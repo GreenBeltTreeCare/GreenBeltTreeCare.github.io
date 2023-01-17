@@ -517,25 +517,25 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  padding: 20px 40px;
+  padding: 30px 40px;
   width: 100%;
 }
 
 #trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
   display: inherit;
-  height: 500px;
-  width: 60%;
+  height: 400px;
+  width: 70%;
 }
 
 #trimAfter, #pruneAfter, #removeAfter, #stumpAfter {
-  height: 500px;
-  width: 60%;
+  height: 400px;
+  width: 70%;
   display: none;
 }
 
 .fade {
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: .5s;
 }
 
 @keyframes fade {
@@ -546,11 +546,12 @@
 .servTitle {
   color: White;
   font-size: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
 .serviceDetails {
+  text-align: left;
   font-size: 20px;
 }
 

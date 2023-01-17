@@ -102,13 +102,13 @@ const Home = () => {
                                 <img src={trimming_after} alt="image_not_available" id="trimAfter" className="fade"/>
                                 <div style={{ backgroundImage: `url(${tree_background})`}} className="differenceDetails">
                                     <h1 className="servTitle">Tree Trimming</h1>
-                                    <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <p className="serviceDetails">Proper tree maintenance is an important step for improving the health and aethetics of a tree. It is crucial to regularly have your trees trims to remove any damaged or dead branches that could pose a risk to nearby buildings, vehicles or pedestrians. A properly maintained tree can help prolong the life of the tree and help to manage future fruit or flower production. Improving the aethetics of the tree it can increase property value.</p>
                                 </div>
                             </div>
                             <div className="differenceType right">
                                 <div style={{ backgroundImage: `url(${tree_background})`}} className="differenceDetails">
                                     <h1 className="servTitle">Ornamental Pruning</h1>
-                                    <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <p className="serviceDetails">Ornamental plants or garden plants are plants which are grown for display purposes only. They are often used to add color and create a decorative landscape. An ornamental plant can be anything from trees, shrubs, lillies, annuals, perennials, hedges and conifers.</p>
                                 </div>
                                 <img src={pruning_before} alt="image_not_available" id="pruneBefore" className="fade"/>
                                 <img src={pruning_after} alt="image_not_available" id="pruneAfter" className="fade"/>
@@ -118,7 +118,7 @@ const Home = () => {
                                 <img src={removal_after} alt="image_not_available" id="removeAfter" className="fade"/>
                                 <div style={{ backgroundImage: `url(${tree_background})`}} className="differenceDetails">
                                     <h1 className="servTitle">Tree Removal</h1>
-                                    <p className="serviceDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <p className="serviceDetails">Trees are great for the environment and have lots of benefits when they are healthy. We always try to save a tree whenever possible, however, there are certain situations when the best thing to do is to remove it. Before removing a tree, it is best to have it diagnosed by an arborist. Arborist are trained to identify symptoms that may not be obvious to the untrained eye. These are some of the signs you should look out for when deciding if it's time to remove a tree.</p>
                                 </div>
                             </div>
                             <div className="differenceType right">
