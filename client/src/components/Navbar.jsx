@@ -32,10 +32,10 @@ const Navbar = () => {
         <div className="navbar">
             <div className="navbarLeft">
                 <img className="logo" src={company_logo} alt="logo"/>
-                <div>
+                {/* <div>
                     <h1 className="companyName">Green Belt Tree Care LLC</h1>
                     <h2 className="slogan">"We'll go out on a limb for you"</h2>
-                </div>
+                </div> */}
             </div>
             <div className="navLinks">
                 <Link to="/" className="link"><h2 className="link">Home</h2></Link>
