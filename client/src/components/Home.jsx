@@ -9,7 +9,6 @@ import removal_before from '../imgs/removal_before.jpg';
 import removal_after from '../imgs/removal_after.jpg';
 import stump_before from '../imgs/stump_before.jpg';
 import stump_after from '../imgs/stump_after.jpg';
-import forest from '../imgs/forest.jpg';
 import tree_trimming from '../imgs/tree_trimming.jpg';
 import tree_background from '../imgs/tree_background.png';
 import header_img from '../imgs/header_img.jpg';
