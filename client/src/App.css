@@ -29,7 +29,7 @@ body {
 }
 
 .contactBtn:hover {
-  background-color: rgb(16, 189, 0);
+  background-color: rgb(12, 146, 0);
 }
 
 /* Navbar css */
@@ -325,7 +325,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 50px 40px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .contactInfo {
@@ -509,7 +509,7 @@ body {
 }
 
 .differenceDiv {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
