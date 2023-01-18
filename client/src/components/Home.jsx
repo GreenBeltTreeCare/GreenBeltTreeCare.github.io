@@ -50,14 +50,16 @@ const Home = () => {
             <Link to="/contact" className="contactLink"><h3 className="contactBtn">Contact Us</h3></Link>
 
             <div className="bodyWrapper">
+                {/* Header Image */}
                 <div>
                     <img src={header_img} alt="tree_background" className="tree_background"/>
                 </div>
+
                 {/* Banner section */}
                 <div className="bannerDiv">
                     <h1 className="bannerHeader">Need help with taking care of your trees?</h1>
                     <h2 className="bannerSubText">With over 10 years of experience we are here to help you with your tree care needs.</h2>
-                    <p className="bannerDetails">We provide a wide range of services such as trimming, pruning, tree removal, stump grinding, and more.</p>
+                    <h2 className="bannerDetails">We provide a wide range of services such as trimming, pruning, tree removal, stump grinding, and more.</h2>
                 </div>
 
                 {/* Contact section */}
@@ -93,7 +95,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <hr className="diffSep"/>
+                {/* <hr className="diffSep"/> */}
 
                 {/* Service section */}
                 <div className="differenceDiv">

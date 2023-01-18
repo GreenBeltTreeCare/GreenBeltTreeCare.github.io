@@ -19,11 +19,12 @@ body {
 }
 
 .contactBtn {
-  background-color: rgb(77, 255, 0);
+  background-color: rgb(10, 117, 1);
+  background-color: black;
   border: 2px solid black;
   border-radius: 20px;
-  color: black;
-  padding: 5px 10px;
+  color: white;
+  padding: 7px 12px;
   text-align: center;
 }
 
@@ -89,7 +90,7 @@ body {
 }
 
 .link {
-  color: lightgreen;
+  color: white;
   font-size: 22px;
   text-decoration: none;
 }
@@ -99,7 +100,7 @@ body {
 }
 
 .link:hover {
-  color: rgb(86, 255, 86);
+  color: orange;
 }
 
 .contactLink {
@@ -117,7 +118,8 @@ body {
 
 .dropdownItem {
   background-color: rgb(233, 233, 233);
-  background-color: rgb(12, 133, 1);
+  background-color: rgb(10, 117, 1);
+  color: white;
   font-size: 18px;
   font-weight: 500;
   list-style: none;
@@ -125,7 +127,8 @@ body {
 }
 
 .dropdownItem:hover {
-  background-color: rgb(86, 255, 86);
+  /* background-color: rgb(3, 148, 3); */
+  color: orange;
 }
 
 .navServLink {
@@ -243,19 +246,11 @@ body {
 
 /* Banner Section */
 .bannerDiv {
-  /* background-image: radial-gradient(rgb(15, 146, 43), rgb(15,90,31), rgb(15,90,31)); */
   background-color: rgb(15,90,31);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   color: white;
-  /* background-size: cover;
-  background-repeat: no-repeat; */
   justify-content: center;
-  /* height: 500px; */
   padding: 50px;
-  /* margin: 30px 50px 0px 50px; */
-  margin-top: 30px;
+  margin-top: -4px;
   text-align: center;
 }
 
@@ -267,16 +262,18 @@ body {
   color: orange;
   font-size: 50px;
   text-align: center;
-  padding: 0px 30px 50px;
+  /* padding: 30px 50px; */
+  padding-bottom: 20px;
 }
 
 .bannerSubText {
   font-size: 30px;
-  padding: 10px 150px 20px 150px;
+  font-weight: 500;
+  padding: 10px 150px 10px 150px;
 }
 
 .bannerDetails {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 500;
   padding: 10px 150px 10px 150px;
 }
@@ -324,21 +321,21 @@ body {
 
 /* Contact section */
 .contactDiv {
-  background-image: radial-gradient(rgb(172, 172, 172), rgb(134, 134, 134), rgb(56, 56, 56));
+  /* background-image: radial-gradient(rgb(172, 172, 172), rgb(134, 134, 134), rgb(56, 56, 56)); */
   display: flex;
   justify-content: center;
-  padding: 4% 10% 4% 10%;
-  margin-top: 30px;
+  padding: 50px 40px;
+  margin-top: 20px;
 }
 
 .contactInfo {
-  color: gold;
-  font-size: 30px;
+  color: orange;
+  font-size: 35px;
   text-align: center;
 }
 
 .contactMsg {
-  color: gold;
+  color: orange;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -360,7 +357,7 @@ body {
   color: black;
   display: flex;
   flex-direction: column;
-  padding: 30px 3% 30px 3%;
+  padding: 15px 30px 10px 30px;
 }
 
 .about {
@@ -432,7 +429,7 @@ body {
 .maintenanceDiv {
   display: flex;
   justify-content: space-between;
-  padding: 0px 3% 20px 3%;
+  padding: 10px 30px 10px 30px;
 }
 
 .maintenance {
@@ -517,22 +514,19 @@ body {
 }
 
 .differences {
-  margin: 0% 3%;
+  margin: 10px 30px;
 }
 
 .differenceTitle {
-  /* background-image: radial-gradient(lightgreen, rgb(70,141,40)); */
-  /* background-image: radial-gradient(rgb(172, 172, 172), rgb(134, 134, 134), rgb(56, 56, 56)); */
-  /* color: gold; */
   font-size: 45px;
-  /* margin: 20px 0px 40px 0px; */
   padding: 30px;
+  margin-bottom: 20px;
 }
 
 .differenceSection {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .differenceType {
@@ -953,6 +947,7 @@ body {
 .mapDiv {
   display: flex;
   justify-content: space-around;
+  margin: 0px 70px;
 }
 
 .bbbImg {
@@ -1015,13 +1010,14 @@ body {
 
 .isaImg {
   border-radius: 5px;
+  height: 230px;
 }
 
 .mapDetailDiv {
   display: flex;
+  flex: 5;
   flex-direction: column;
   justify-content: space-between;
-  flex: 5;
 }
 
 @media only screen and (max-width: 600px) {
