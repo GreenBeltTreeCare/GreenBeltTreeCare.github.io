@@ -243,14 +243,20 @@ body {
 
 /* Banner Section */
 .bannerDiv {
-  color: rgb(0, 163, 14);
-  background-size: cover;
+  /* background-image: radial-gradient(rgb(15, 146, 43), rgb(15,90,31), rgb(15,90,31)); */
+  background-color: rgb(15,90,31);
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
+  color: white;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
   justify-content: center;
-  height: 500px;
+  /* height: 500px; */
   padding: 50px;
+  /* margin: 30px 50px 0px 50px; */
+  margin-top: 30px;
   text-align: center;
-  
 }
 
 .tree_background {
@@ -261,7 +267,7 @@ body {
   color: orange;
   font-size: 50px;
   text-align: center;
-  padding: 50px 50px 30px 50px;
+  padding: 0px 30px 50px;
 }
 
 .bannerSubText {
