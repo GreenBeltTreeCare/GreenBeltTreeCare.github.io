@@ -9,6 +9,7 @@ const Stump = () => {
             <Link to="/contact" className="contactLink"><h3 className="contactBtn">Contact Us</h3></Link>
 
             <div>
+                {/* Stump Grinding description */}
                 <h1 className="serviceTitle">Stump Grinding</h1>
 
                 <div className="serviceSection">
