@@ -57,7 +57,7 @@ const Home = () => {
 
                 {/* Banner section */}
                 <div className="bannerDiv">
-                    <h1 className="bannerHeader">Need help with taking care of your trees?</h1>
+                    <h1 className="bannerHeader">Need help with your trees?</h1>
                     <h2 className="bannerSubText">With over 10 years of experience we are here to help you with your tree care needs.</h2>
                     <h2 className="bannerDetails">We provide a wide range of services such as trimming, pruning, tree removal, stump grinding, and more.</h2>
                 </div>
