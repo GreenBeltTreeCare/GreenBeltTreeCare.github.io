@@ -1034,6 +1034,7 @@ body {
 
   .mapDiv {
     flex-direction: column-reverse;
+    margin: 0px;
   }
 
   .mapLinks {
