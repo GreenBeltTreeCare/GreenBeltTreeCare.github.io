@@ -36,6 +36,7 @@ const SiteMap = () => {
                                 <Link to="/services/crown-reduction" className="siteServLink">Crown Reduction</Link>
                                 <Link to="/services/cabling" className="siteServLink">Cabling</Link>
                                 <Link to="/services/stump-grinding" className="siteServLink">Stump Grinding</Link>
+                                <Link to="/services/emergency-services" className="siteServLink">Emergency Services</Link>
                             </div>
                         </div>
                         <div className="shareDiv">

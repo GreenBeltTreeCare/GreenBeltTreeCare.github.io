@@ -18,6 +18,7 @@ const Services = () => {
                 <li className="serviceList"><Link to="/services/crown-reduction" className="serviceLinks">Crown Reduction</Link></li>
                 <li className="serviceList"><Link to="/services/cabling" className="serviceLinks">Cabling</Link></li>
                 <li className="serviceList"><Link to="/services/stump-grinding" className="serviceLinks">Strump Grinding</Link></li>
+                <li className="serviceList"><Link to="/services/emergency-services" className="serviceLinks">Emergency Services</Link></li>
             </ul>
         </div>
     )

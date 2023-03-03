@@ -843,6 +843,11 @@ body {
   line-height: 30px;
 }
 
+/* Ornamental Page */
+.ornamentalImg {
+  width: 80%;
+}
+
 /* Crown Raising page */
 .crownRaisingImg {
   width: 35%;
@@ -856,6 +861,11 @@ body {
 
 /* Cabling page */
 .cobraImg {
+  width: 80%;
+}
+
+/* Emergency Page */
+.emergencyImg {
   width: 80%;
 }
 
@@ -875,6 +885,7 @@ body {
 .serviceList {
   list-style: none;
   margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1024px) {

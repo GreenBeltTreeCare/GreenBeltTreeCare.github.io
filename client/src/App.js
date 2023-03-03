@@ -11,6 +11,7 @@ import Raising from './components/Raising';
 import Reduction from './components/Reduction';
 import Cabling from './components/Cabling';
 import Stump from './components/Stump';
+import Emergency from './components/Emergency';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/services/crown-reduction" exact element={<Reduction />} />
         <Route path="/services/cabling" exact element={<Cabling />} />
         <Route path="/services/stump-grinding" exact element={<Stump />} />
+        <Route path="/services/emergency-services" exact element={<Emergency />} />
         <Route path="*" exact element={<Navigate to="/"/>}/>
       </Routes>
       <SiteMap />

@@ -52,6 +52,7 @@ const Navbar = () => {
                             <Link to="/services/crown-reduction" className="navServLink"><li className="dropdownItem">Crown Reduction</li></Link>
                             <Link to="/services/cabling" className="navServLink"><li className="dropdownItem">Cabling</li></Link>
                             <Link to="/services/stump-grinding" className="navServLink"><li className="dropdownItem">Stump Grinding</li></Link>
+                            <Link to="/services/emergency-services" className="navServLink"><li className="dropdownItem">Emergency Services</li></Link>
                         </ul>
                     </div>
                 </div>
