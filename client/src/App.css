@@ -293,8 +293,8 @@ body {
 
 @media only screen and (max-width: 600px) {
   .bannerDiv {
-    padding: 10px;
-    height: 370px;
+    padding: 10px 0px;
+    height: 330px;
   }
 
   .bannerHeader {
@@ -339,9 +339,13 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .contactDiv {
+    padding: 50px 0px;
+  }
+
   .contactInfo {
     font-size: 25px;
-    padding: 10px 0px;
+    padding: 10px 10px;
   }
 }
 
@@ -394,6 +398,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .aboutDiv {
+    padding: 15px 0px 10px 0px;
+  }
+
   .about {
     flex-direction: column;
   }
@@ -469,6 +477,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .maintenanceDiv {
+    padding: 10px 0px 10px 0px;
+  }
+
   .maintenance {
     justify-content: center;
   }
@@ -496,12 +508,6 @@ body {
 }
 
 /* Before and After Section */
-.diffSep {
-  background-color: black;
-  padding: 1px;
-  margin-top: 10px;
-}
-
 .differenceDiv {
   padding-bottom: 30px;
   text-align: center;
@@ -577,8 +583,13 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .differences {
+    margin: 10px 0px;
+  }
+
   .differenceTitle {
     font-size: 25px;
+    padding: 30px 10;
   }
 
   .right {

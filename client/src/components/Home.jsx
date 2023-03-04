@@ -95,7 +95,6 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                {/* <hr className="diffSep"/> */}
 
                 {/* Service section */}
                 <div className="differenceDiv">
