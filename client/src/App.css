@@ -275,7 +275,7 @@ body {
 @media only screen and (max-width: 1024px) {
   .bannerDiv {
     padding: 20px;
-    height: 400px;
+    height: 250px;
   }
   
   .bannerHeader {
@@ -284,32 +284,41 @@ body {
 
   .bannerSubText {
     font-size: 25px;
+    padding: 10px 30px 10px 30px;
   }
 
   .bannerDetails {
     font-size: 25px;
+    padding: 10px 30px 10px 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .bannerDiv {
+    padding: 20px 0px;
+    /* height: 270px; */
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bannerDiv {
     padding: 10px 0px;
-    height: 330px;
+    height: 300px;
   }
 
   .bannerHeader {
     font-size: 25px;
-    padding: 30px 30px 20px 30px;
+    padding: 30px 10px 20px 10px;
   }
 
   .bannerSubText {
     font-size: 20px;
-    padding: 0px 40px 20px 40px;
+    padding: 0px 15px 20px 15px;
   }
 
   .bannerDetails {
     font-size: 20px;
-    padding: 0px 40px 20px 40px;
+    padding: 0px 15px 20px 15px;
   }
 }
 
