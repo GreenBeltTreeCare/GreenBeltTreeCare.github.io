@@ -72,7 +72,7 @@ const Home = () => {
                     <div className="about">
                         <div style={{ backgroundImage: `url(${tree_background})`}} className="aboutDetails">
                             <h1 className="aboutTitle">About Us</h1>
-                            <p className="aboutMsg">Green Belt Tree Care is a Native American owned and operated tree care company based out of Auburn, WA. We are Licensed, Bonded and Insured. We are committed to providing top quality tree care services throughout western washington. We offer a range of services from tree trimming, tree removal, stump grinding and many more. We also offer 24 hour emergency services.</p>
+                            <p className="aboutMsg">Green Belt Tree Care is a Native American owned and operated tree care company based out of Auburn, WA. We are Licensed, Bonded and Insured and are committed to providing top quality tree care services throughout western washington. We offer a range of services from tree trimming, tree removal, stump grinding and many more. We also offer hazard tree removal.</p>
                         </div>
                         <img src={wyatt} alt="image_not_found" className="aboutImg"/>
                     </div>
