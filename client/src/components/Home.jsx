@@ -86,7 +86,7 @@ const Home = () => {
                             <h1 className="maintenanceTitle">Why is Tree Maintenance so Important?</h1>
                             <p className="maintenanceDesc">There are many benefits to proper tree maintenance but here are the 5 main reasons why proper tree maintenance is so important.</p>
                             <ol className="maintenanceList">
-                                <li>Preventative tree maintenance will improve the overall structure of your trees, keeping them from developing weak branching habits.</li>
+                                <li>Preventative tree maintenance will improve the overall structure of your trees and will help keep them from developing weak branching habits.</li>
                                 <li>Trimming prevents limbs from growing weak crotches or eventually crossing each other and competing for space.</li>
                                 <li>Removing dead or dying limbs reduces the stress on the tree by elimating fuel for burrowing insects, fungus and bacteria.</li>
                                 <li>If dead branches break off and fall they can potentially cause damage to property or injury to someone.</li>

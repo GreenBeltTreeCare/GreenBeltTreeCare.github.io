@@ -293,7 +293,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .bannerDiv {
     padding: 20px 0px;
     /* height: 270px; */
@@ -313,7 +313,7 @@ body {
 
   .bannerSubText {
     font-size: 20px;
-    padding: 0px 15px 20px 15px;
+    padding: 0px 15px 20px 15npm px;
   }
 
   .bannerDetails {
@@ -439,7 +439,6 @@ body {
 /* Maintenance Section */
 .maintenanceDiv {
   display: flex;
-  justify-content: space-between;
   padding: 10px 30px 10px 30px;
 }
 
