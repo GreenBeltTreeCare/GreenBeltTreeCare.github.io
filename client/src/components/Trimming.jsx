@@ -32,10 +32,10 @@ const Trimming = () => {
                             <h3 className="itemList">1. Remove competing leader</h3>
                             <p className="serviceDesc">You want to have one dominant leader stem. It is a good idea to pick the tallest, strongest main branch to be the dominant leader. When a tree has co-dominate stems it can lead to structural weakness.</p>
                             <h3 className="itemList">2. Remove crowded, malformed or crossing branches</h3>
-                            <p className="serviceDesc">Cleaning out the interior of a tree of any crowded, malformed or crossing branches can help to prevent in future issues and allow the tree to developer healthier branches with the remaining branches.</p>
-                            <h3 className="itemList">3. Remove disease, damaged or dead branches</h3>
+                            <p className="serviceDesc">Cleaning out the interior of a tree of any crowded, malformed or crossing branches can help to prevent future issues and allow the tree to develop healthier branching habits with the remaining branches.</p>
+                            <h3 className="itemList">3. Remove disease, damaged and dead branches</h3>
                             <p className="serviceDesc">Diseased, damaged and dead branches can pose a risk to nearby buildings, vehicles or pedestrians. It can also help to prevent diseases or pest from spreading to the rest of the tree.</p>
-                            <h3 className="itemList">4. Remove low branches, suckers or grinding roots</h3>
+                            <h3 className="itemList">4. Remove low branches, suckers and grinding roots</h3>
                             <p className="serviceDesc">Clearing the lower levels of the tree can provide clearance for buildings, vehicles or pedestrians.</p>
                         </div>
                     </div>

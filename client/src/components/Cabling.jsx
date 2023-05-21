@@ -15,7 +15,7 @@ const Cabling = () => {
                 <div className="serviceSection">
                     <div className="serviceLeft">
                         <h2 className="serviceSubTitle">When do I need to consider cabling my trees?</h2>
-                        <p className="serviceDesc">Tree cabling systems are designed to create a connection between two limbs that are at risk of breaking off. They provide addition support to the limbs to prevent one or more from breaking off or falling. They are installed between two co-dominant stems and are designed to grow with the tree.</p>
+                        <p className="serviceDesc">Tree cabling systems are designed to create a connection between two limbs that are at risk of breaking off. They provide additional support to the limbs to prevent one or more from breaking off or falling. They are installed between two co-dominant stems and are designed to grow with the tree.</p>
                         <div className="serviceImg">
                             <img src={cobra_cable} alt="cobra_cable_img" className="cobraImg"/>
                         </div>
