@@ -384,6 +384,7 @@ body {
   background-color: rgb(15,90,31);
   background-size: contain;
   background-position: center;
+  /* border-radius: 10px; */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -406,6 +407,12 @@ body {
   justify-content: space-evenly;
 }
 
+.teamMember {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .teamName {
   font-size: 22px;
   margin-bottom: 5px;
@@ -420,12 +427,20 @@ body {
 }
 
 .teamImg {
+  align-self: center;
   width: 350px;
 }
 
 @media only screen and (max-width: 1020px) {
   .aboutDetails {
     gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutTeam {
+    flex-direction: column;
+    gap: 15px;
   }
 }
 
@@ -473,6 +488,7 @@ body {
   background-color: rgb(15,90,31);
   background-size: contain;
   background-position: center;
+  /* border-radius: 0px 10px 10px 0px; */
   background-repeat: no-repeat;
   color: white;
   flex-direction: column;
@@ -577,12 +593,12 @@ body {
 #trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
   display: inherit;
   height: 450px;
-  width: 70%;
+  width: 750px;
 }
 
 #trimAfter, #pruneAfter, #removeAfter, #stumpAfter {
   height: 450px;
-  width: 70%;
+  width: 750px;
   display: none;
 }
 
@@ -613,6 +629,65 @@ body {
   font-size: 40px;
 }
 
+@media only screen and (max-width: 1020px) {
+  .servTitle {
+    font-size: 25px;
+  }
+
+  .serviceDetails {
+    font-size: 18px;
+    padding: 0px 15px;
+  }
+
+  #trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
+    display: inherit;
+    height: 400px;
+    width: 100%;
+  }
+  
+  #trimAfter, #pruneAfter, #removeAfter, #stumpAfter {
+    height: 400px;
+    width: 100%;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .differenceDetails {
+    width: auto;
+  }
+  .right {
+    flex-direction: column;
+  }
+
+  .left {
+    flex-direction: column-reverse;
+  }
+
+  #trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
+    height: 550px;
+    width: 100%;
+  }
+
+  #trimAfter, #pruneAfter, #removeAfter, #stumpAfter {
+    height: 550px;
+    width: 100%;
+  }
+
+  .differences{
+    margin: 10px 30px;
+  }
+
+  .servTitle {
+    font-size: 25px;
+  }
+
+  .serviceDetails {
+    font-size: 18px;
+    padding: 0px 15px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .differences {
     margin: 10px 0px;
@@ -620,7 +695,7 @@ body {
 
   .differenceTitle {
     font-size: 25px;
-    padding: 30px 10;
+    padding: 30px 10px;
   }
 
   .right {
@@ -644,7 +719,6 @@ body {
   .serviceDetails {
     font-size: 20px;
     margin-top: 10px;
-    padding: 0px 10px;
   }
 
   #trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
